@@ -1,0 +1,167 @@
+@charset "EUC-KR";
+
+
+
+.perfromimg 
+{
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  margin: 10px;
+  min-width: 1800px -60px;
+  max-width: 300px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  font-size: 15px;
+}
+
+.perfromimg bm
+{
+	font-size: 25px;
+}
+
+.perfromimg * 
+{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
+.perfromimg img
+{
+  position: relative;
+  max-width: 100%;
+  vertical-align: middle; 
+  
+}
+
+.perfromimg figcaption 
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  padding: 10px 5px;
+}
+
+.perfromimg figcaption:before,
+.perfromimg figcaption:after 
+{
+  width: 1px;
+  height: 0;
+}
+
+.perfromimg figcaption:before 
+{
+  right: 0;
+  top: 0;
+}
+
+.perfromimg figcaption:after 
+{
+  left: 0;
+  bottom: 0;
+}
+
+.perfromimg p 
+{
+  line-height: 1.5em;
+}
+
+.perfromimg p 
+{
+  font-size: 15pt;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+
+/*
+.perfromimg a 
+{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  margin-right: 10px;
+}
+*/
+
+.perfromimg:before,
+.perfromimg:after,
+.perfromimg figcaption:before,
+.perfromimg figcaption:after 
+{
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0.8;
+}
+
+.perfromimg:before,
+.perfromimg:after 
+{
+  height: 1px;
+  width: 0%;
+}
+
+.perfromimg:before 
+{
+  top: 0;
+  left: 0;
+}
+
+.perfromimg:after 
+{
+  bottom: 0;
+  right: 0;
+}
+
+.perfromimg:hover img,
+.perfromimg.hover img 
+{
+  opacity: 0.4;
+}
+
+.perfromimg:hover figcaption,
+.perfromimg.hover figcaption 
+{
+  opacity: 1;
+}
+
+.perfromimg:hover figcaption:before,
+.perfromimg.hover figcaption:before,
+.perfromimg:hover figcaption:after,
+.perfromimg.hover figcaption:after
+ {
+  height: 100%;
+}
+
+.perfromimg:hover:before,
+.perfromimg.hover:before,
+.perfromimg:hover:after,
+.perfromimg.hover:after 
+{
+  width: 100%;
+}
+
+.perfromimg:hover:before,
+.perfromimg.hover:before,
+.perfromimg:hover:after,
+.perfromimg.hover:after,
+.perfromimg:hover figcaption:before,
+.perfromimg.hover figcaption:before,
+.perfromimg:hover figcaption:after,
+.perfromimg.hover figcaption:after 
+{
+  opacity: 0.1;
+}

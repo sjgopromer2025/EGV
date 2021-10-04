@@ -1,0 +1,65 @@
+
+*
+{
+	background:black;
+	color:white;
+}
+ 
+
+body
+{
+	height: hegiht:2800px;
+}
+
+.slick-prev:hover, .slick-next:hover
+{
+	cursor: pointer;
+}
+	
+	
+.searchbx
+{
+	border-radius: 15px 0px 0px 15px;
+	background:white;
+	vertical-align: middle;
+	width: 60%;
+	height: 40px;
+	color:black;
+	font-size:15pt;
+}
+
+input.img-button 
+{
+    background: url( "../img/search.jpeg" ) no-repeat;
+    background-size: 100%;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.matchtd
+{
+	width: 93%;
+	height: 100%;
+	background-color: black;
+}
+.inputst
+{
+	height:80px; width:98%; background-color: white; color:black; font-size: 14pt;
+}
+
+
+#pagelogin:hover 
+{
+	cursor: pointer;
+}
+
+.link:hover 
+{
+	cursor: pointer;
+}
+
+	 	
